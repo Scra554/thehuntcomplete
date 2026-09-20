@@ -1111,11 +1111,9 @@ SettingsTab:Button("Unload Astral Hub", function()
 end)
 
 print("[Astral Hub] 20th Anniversary (The Hunt: Roblox 20) Hub loaded successfully!")
-
-
 task.wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sodiumhub/Ira/refs/heads/main/resummon"))()
-
+end
 -- Speed, Jump & Fling Script
 -- Load this into your executor
 
